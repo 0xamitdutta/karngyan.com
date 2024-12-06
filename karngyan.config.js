@@ -1,10 +1,10 @@
 // Upload files in static/ So any file static/file.pdf -> /file.pdf is accessible at root
 
 export default {
-  name: 'gyan prakash karn',
+  name: 'Amit Dutta',
   domain: 'template.karngyan.com', // add without https:// , used in meta tags and share urls
-  image: '/images/bigheadkarngyan.png',
-  email: 'mail@karngyan.com',
+  image: '/images/amitdutta.jpg',
+  email: 'amitdutta2406@gmail.com',
   googleAnalyticsV4: {
     enabled: false,
     id: ''
@@ -19,32 +19,31 @@ export default {
   // enable if you want comments and likes on posts
   // see how it looks on karngyan.com
   firebase: {
-    enabled: true
+    enabled: false
   },
   social: {
-    github: 'karngyan',
-    linkedin: 'karngyan',
-    facebook: 'karnsometimes',
-    twitter: 'gyankarn',
-    instagram: 'karngyan.dev',
-    codestats: 'karngyan' // https://codestats.net make a profile if you dont already have one.
+    github: '0xamitdutta',
+    linkedin: 'amitdutta24',
+    twitter: '0xamitdutta',
+    instagram: 'itsamitdutta',
+    codestats: 'amitdutta' // https://codestats.net make a profile if you dont already have one.
   },
   buyMeACoffee: {
     enabled: true,
-    url: 'https://www.buymeacoffee.com/karngyan'
+    url: 'https://www.buymeacoffee.com/amitdutta'
   },
   projects: {
     enabled: true,
   },
   blog: {
-    enabled: true,
+    enabled: false,
   },
   resume: {
     enabled: true,
-    pdfUrl: '/RESUME_GYAN_KARN_DARK.pdf' // add files in static folder
+    pdfUrl: '/Amit_Dutta_Resume.pdf' // add files in static folder
   },
   uses: {
-    enabled: true,
+    enabled: false,
     meta: [
       {title: 'OS', value: 'macOS Catalina'},
       {title: 'Memory', value: '16 GB 2667 MHz DDR4'},
@@ -58,10 +57,10 @@ export default {
     // add logos in static and at max add 3/4
     enabled: true,
     meta: [
-      { name: 'SendPost', src: '/images/sendpost.png', url: 'https://sendpost.io' },
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
-      { name: 'InterviewReady', src: '/images/interviewready-io.png', url: 'https://get.interviewready.io' },
-      { name: 'CrioDo', src: '/images/crio.png', url: 'https://crio.do' },
+      { name: 'Google', src: '/images/google.png', url: 'https://cloud.google.com/' },
+      { name: 'Oracle', src: '/images/oracle.png', url: 'https://www.oracle.com/in/' },
+      { name: 'Mesha', src: '/images/mesha.jpg', url: 'https://www.mesha.club/' },
+      { name: 'Samsung', src: '/images/samsung.png', url: 'https://www.samsung.com/in/' },
     ]
   },
   recommendations: {
@@ -105,13 +104,13 @@ export default {
       hero: {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
-        friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
+        friendlyNeighborhood: 'Your friendly neighborhood',
+        description: 'I am a full-stack web developer who treats new technologies like they are on a buffet table (there is always room for one more on my plate.)  I believe in learning by doing, often finding myself saying, "Lets just try this and see what happens!"',
         words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
       },
       githubCalendar: {
-        header: 'contributions',
-        subtext: 'github calendar heatmap'
+        header: 'Contributions',
+        subtext: 'Github calendar heatmap'
       },
       blog: {
         header: 'blog',
@@ -126,12 +125,12 @@ export default {
         subtext: 'a quick summary of what I use on a daily basis to code and some codestats.net flex'
       },
       projects: {
-        header: 'projects',
-        subtext: 'this page lists some of my personal and work projects. every project has some story, click on the title to read'
+        header: 'Projects',
+        subtext: 'This page lists some of my personal and work projects. every project has some story, click on the title to read'
       },
       recommendations: {
-        header: 'recommendations',
-        subtext: 'what do my mentors say'
+        header: 'Recommendations',
+        subtext: 'What do my mentors say'
       }
     }
   }
